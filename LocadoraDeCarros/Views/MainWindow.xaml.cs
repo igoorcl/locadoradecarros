@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace LocadoraDeCarros
+namespace LocadoraDeCarros.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +23,28 @@ namespace LocadoraDeCarros
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+ 
+
+        private void btnMenuCadastro_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void menuCadastroCliente_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void menuCadastroFuncionario_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void menuCadastroVeiculo_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
